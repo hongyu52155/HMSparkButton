@@ -13,6 +13,8 @@
 		58A080F41E544B72001E83C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A080F21E544B72001E83C0 /* Main.storyboard */; };
 		58A080F61E544B72001E83C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A080F51E544B72001E83C0 /* Assets.xcassets */; };
 		58A080F91E544B72001E83C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A080F71E544B72001E83C0 /* LaunchScreen.storyboard */; };
+		58A081051E544C00001E83C0 /* HMSparkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A081021E544C00001E83C0 /* HMSparkButton.m */; };
+		58A081061E544C00001E83C0 /* HMSparkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A081041E544C00001E83C0 /* HMSparkView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		58A080F51E544B72001E83C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58A080F81E544B72001E83C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58A080FA1E544B72001E83C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A081011E544C00001E83C0 /* HMSparkButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSparkButton.h; sourceTree = "<group>"; };
+		58A081021E544C00001E83C0 /* HMSparkButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSparkButton.m; sourceTree = "<group>"; };
+		58A081031E544C00001E83C0 /* HMSparkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSparkView.h; sourceTree = "<group>"; };
+		58A081041E544C00001E83C0 /* HMSparkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSparkView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		58A080E81E544B72001E83C0 /* HMSparkButton */ = {
 			isa = PBXGroup;
 			children = (
+				58A081001E544C00001E83C0 /* HMSparkButton */,
 				58A080EC1E544B72001E83C0 /* AppDelegate.h */,
 				58A080ED1E544B72001E83C0 /* AppDelegate.m */,
 				58A080EF1E544B72001E83C0 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				58A080EA1E544B72001E83C0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58A081001E544C00001E83C0 /* HMSparkButton */ = {
+			isa = PBXGroup;
+			children = (
+				58A081011E544C00001E83C0 /* HMSparkButton.h */,
+				58A081021E544C00001E83C0 /* HMSparkButton.m */,
+				58A081031E544C00001E83C0 /* HMSparkView.h */,
+				58A081041E544C00001E83C0 /* HMSparkView.m */,
+			);
+			path = HMSparkButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A081051E544C00001E83C0 /* HMSparkButton.m in Sources */,
 				58A080F11E544B72001E83C0 /* ViewController.m in Sources */,
+				58A081061E544C00001E83C0 /* HMSparkView.m in Sources */,
 				58A080EE1E544B72001E83C0 /* AppDelegate.m in Sources */,
 				58A080EB1E544B72001E83C0 /* main.m in Sources */,
 			);
@@ -312,6 +332,7 @@
 				58A080FF1E544B72001E83C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
